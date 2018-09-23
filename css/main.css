@@ -96,11 +96,43 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-header article ul li p {
+.leftBloc {
+  width: 45%;
+  height: auto;
+  background-color: yellow;
+}
+.widthArticleBloc {
+  width: 90%;
+  background-color: blue;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+header {
+  width: 100%;
+  background-color: pink;
+}
+header article {
+  width: 30%;
+  background-color: purple;
+}
+header figure {
+  width: 20%;
+  background-color: purple;
+}
+ul li p {
   margin-bottom: 0;
 }
-
+.pict {
+  width: 100%;
+  height: auto;
+}
+main {
+  width: 100%;
+  height: auto;
+  background-color: red;
+}
 
 
 
