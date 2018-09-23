@@ -96,9 +96,69 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
+header, main {
+  width: 45%;
+}
+header article {
+  width: 50%;
+}
+main article {
+  width: 50%;
+}
+header figure {
+  width: 40%;
+}
+p {
+  margin-bottom: 0;
+}
+.pict {
+  width: 100%;
+  height: auto;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  margin-bottom: 15px;
+}
+.flexbox {
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+article {
+  border: solid;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  margin-bottom: 30px;
+  text-align: right;
+}
+.firstcolor {
+  background-color: #f4a259;
+}
+.colorGreen {
+  background-color: #a0d695;
+}
+ul {
+  list-style: none;
+}
+p, li {
+  font-family: 'Roboto', sans-serif;
+}
+h1, h3 {
+  font-family: 'Muli', sans-serif;
+}
+h1, h3, p, li {
+  padding-right: 10px;
+}
+.ml {
+  margin-left: 100px;
+}
+.mr {
+  margin-right: 100px;
+}
+.picture {
+  margin-left: 135px;
+}
 
 
 
